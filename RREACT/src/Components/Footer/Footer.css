@@ -1,0 +1,73 @@
+.foott {
+  width: 100%;
+  background-color: #282828;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footerr {
+  width: 100%;
+  background-color: #282828;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+.focalx-imgg img {
+  width: 100px;
+}
+.focalx-imgg {
+  width: 280px;
+  height: 200px;
+  color: white;
+}
+.focalx-imgg > span {
+  font-size: 20px;
+  color: #ff8500;
+}
+.focalx-imgg h2,
+.focalx-imgg p {
+  color: white;
+}
+.focalx-img h3 {
+  margin: 10px 0;
+}
+.focal2-divv,
+.focal3-divv,
+.focal4-divv,
+.focal5-divv {
+  color: white;
+  width: 200px;
+  height: 200px;
+}
+.focal2-divv h3,
+.focal3-divv h3,
+.focal4-divv h3 {
+  margin: 10px 0;
+}
+.focal5-divv {
+  color: #ff8500;
+}
+.second-footerr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.second-footerr p {
+  font-size: 14px;
+}
+.second-footerr div {
+  width: 75%;
+  height: 1px;
+  background-color: white;
+}
+.focal5-divv h2 {
+  margin-bottom: 10px;
+}
+.focal5-divv a {
+  margin-right: 5px;
+}

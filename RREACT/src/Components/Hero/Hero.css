@@ -1,0 +1,398 @@
+ .Hero {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 20px 0px;
+       overflow: hidden;
+ }
+
+ .text-hero {
+       position: relative;
+       bottom: 75px;
+       padding-left: 35px;
+ }
+
+ .text-hero h1 {
+       color: #ff8500;
+       font-size: 34px;
+       font-weight: bold;
+       margin-bottom: 20px;
+ }
+
+ .text-hero p {
+       width: 550px;
+       font-size: 20px;
+       line-height: 1.6;
+       color: #333;
+ }
+
+ .hero-image {
+       flex-shrink: 0;
+ }
+
+ .hero-image .img-1 {
+       max-width: 100%;
+       height: auto;
+ }
+
+ .footer img {
+       width: 100%;
+       position: absolute;
+       bottom: 0px;
+ }
+
+ .gameBoy {
+       position: absolute;
+       bottom: 50px;
+       right: 50px;
+ }
+
+ .gameBoy img {
+       max-width: 100%;
+       height: auto;
+ }
+
+ .img-2 {
+       position: absolute;
+       bottom: 115px;
+       right: 107px;
+ }
+
+ .last-wave {
+       position: relative;
+       display: flex;
+       justify-content: center;
+ }
+
+ .hero-icon {
+       position: absolute;
+       left: 25px;
+       top: -10px;
+ }
+
+ .hero-icon a {
+       margin-right: 5px;
+ }
+
+ .hero-icon a img {
+       width: 35px;
+ }
+
+ .hero-wave-p {
+       position: absolute;
+       right: 0;
+       top: -10px;
+       padding: 5px 10px;
+       color: white;
+ }
+
+ .img-3 {
+       display: none;
+ }
+
+.footer-img-2{
+      display: none;
+}
+
+ @media (max-width: 576px) {
+      .Hero {
+            flex-direction: row;
+            text-align: left;
+      }
+
+      .img-boy {
+            display: none;
+      }
+
+      .img-2 {
+            display: none;
+      }
+
+      .hero-image  {
+            position: absolute;
+            width: 25%;
+            right: 0;
+            top: 360px;
+      }
+
+      .text-hero {
+            width: 400px;
+            height:600px;
+            top: 75px;
+      }
+
+      .text-hero h1{
+            font-size: 35px;
+      }
+      .text-hero p {
+            width: 300px;
+            font-size: 20px;
+      }
+
+      .gameBoy {
+            bottom:-150px;
+            right: 20px;
+      }
+
+      .img-3 {
+            width: 250px;
+            right: -15px;
+            display: flex;
+      }
+
+      .footer-img-1 {
+            display: none;
+      }
+
+      .footer-img-2 {
+           display: flex;
+           width: 50%;
+           top: 600px;
+           height: 225px;
+      }
+
+      .hero-icon {
+           top: 100px;
+           left: 25px;
+      }
+
+      .hero-wave-p {
+           top: 150px;
+           font-size: 17px;
+           right: 15px;
+      }
+
+
+      .hero-icon a img {
+           width: 35px;
+     }       
+}
+
+ @media (min-width: 769px) and (max-width: 992px) {
+       .Hero {
+             flex-direction: row;
+             text-align: left;
+       }
+
+       .hero-image .img-1 {
+             width: 60%;
+             height: 500px;
+             padding-top: 150px;
+             margin-left: 60px;
+       }
+
+       .img-boy {
+             display: none;
+       }
+
+       .img-2 {
+             display: none;
+       }
+
+       .text-hero {
+             width: 400px;
+       }
+
+       .text-hero p {
+             width: 425px;
+       }
+
+       .gameBoy {
+             bottom: 75px;
+             right: 20px;
+       }
+
+       .img-3 {
+             width: 250px;
+             right: -10px;
+             display: flex;
+       }
+
+       .footer-img-1 {
+             display: none;
+       }
+
+       .footer-img-2 {
+            display: flex;
+            width: 50%;
+            height: 175px;
+       }
+
+       .hero-icon {
+            top: 48px;
+       }
+
+       .hero-wave-p {
+            top: 55px;
+            font-size: 20px;
+       }
+
+       .text-hero {
+            top: -25px;
+       }
+
+       .hero-icon a img {
+            width: 50px;
+      }
+
+ }
+
+ @media (min-width: 576px) and (max-width: 768px) {
+      .Hero {
+            flex-direction: row;
+            text-align: left;
+      }
+
+      .hero-image .img-1 {
+            width: 60%;
+            position: relative;
+            padding-top: 220px;
+            left: 40%;
+      }
+
+      .img-boy {
+            display: none;
+      }
+
+      .img-2 {
+            display: none;
+      }
+
+      .text-hero {
+            width: 400px;
+            top: -5px;
+      }
+
+      .text-hero h1{
+            font-size: 25px;
+      }
+      .text-hero p {
+            width: 300px;
+            font-size: 20px;
+      }
+
+      .gameBoy {
+            bottom: 50px;
+            right: 20px;
+      }
+
+      .img-3 {
+            width: 220px;
+            right: -15px;
+            display: flex;
+      }
+
+      .footer-img-1 {
+            display: none;
+      }
+
+      .footer-img-2 {
+           display: flex;
+           width: 50%;
+           height: 150px;
+      }
+
+      .hero-icon {
+           top: 5px
+      }
+
+      .hero-wave-p {
+           top: 8px;
+           font-size: 15px;
+      }
+
+
+      .hero-icon a img {
+           width: 35px;
+     }       
+}
+
+ @media (min-width: 769px) and (max-width: 992px) {
+       .Hero {
+             flex-direction: row;
+             text-align: left;
+       }
+
+       .hero-image .img-1 {
+             width: 60%;
+             height: 500px;
+             padding-top: 150px;
+             margin-left: 60px;
+       }
+
+       .img-boy {
+             display: none;
+       }
+
+       .img-2 {
+             display: none;
+       }
+
+       .text-hero {
+             width: 400px;
+       }
+
+       .text-hero p {
+             width: 425px;
+       }
+
+       .gameBoy {
+             bottom: 75px;
+             right: 20px;
+       }
+
+       .img-3 {
+             width: 250px;
+             right: -10px;
+             display: flex;
+       }
+
+       .footer-img-1 {
+             display: none;
+       }
+
+       .footer-img-2 {
+            display: flex;
+            width: 50%;
+            height: 175px;
+       }
+
+       .hero-icon {
+            top: 48px;
+       }
+
+       .hero-wave-p {
+            top: 55px;
+            font-size: 20px;
+       }
+
+       .text-hero {
+            top: -25px;
+       }
+
+       .hero-icon a img {
+            width: 50px;
+      }
+
+      }
+       @media (min-width: 992px) and (max-width: 1200px) {
+             .Hero {
+                   flex-direction: row;
+                   text-align: left;
+                   padding-top: 35px;
+             }
+
+             .hero-image .img-1 {
+                   width: 100%;
+             }
+
+             .gameBoy {
+                   bottom: 20px;
+                   right: 40px;
+             }
+
+             .img-2 {
+                   bottom: 120px;
+                   right: 107px;
+             }
+       }
